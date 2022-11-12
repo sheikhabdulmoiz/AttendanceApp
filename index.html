@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Attendance Application SMIT</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="box">
+        <img src="Assets/images/download.png" id="logo_main" alt="lock" />
+        <h3>Admin Sign In</h3>
+        <form>
+          <input type="text" placeholder="USERNAME" id="admin_user" />
+          <input type="text" placeholder="PASSWORD" id="admin_password" />
+        </form>
+        <!-- <a href="#">forgot ?</a>
+         -->
+        <span id="credentialAlert2"></span>
+
+        <input
+          onclick="this.style.backgroundColor = '#69c061';"
+          type="submit"
+          value="Sign in"
+          id="submit_btn"
+        />
+        <!-- <button id="submit_btn" >SUBMIT</button> -->
+        <!-- <div class="signup">
+            <p>not a member ? <a href="#">sign up</a></p>
+          </div> -->
+      </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
