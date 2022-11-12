@@ -90,42 +90,18 @@ var submit_btn = document
       console.log(errorMessage);
     });
       
-      // userEmail = admin_user.value;
-      // userPassword = admin_password.value;
-  
-      // signin = {
-      //   email: admin_user.value,
-      //   password: admin_password.value,
-      // };
-      // // localStorage.removeItem("signupDetails")
-      // savedSignupDetails = JSON.parse(localStorage.getItem("signupDetails"));
-      // // console.log(savedSignupDetails)
-
-      
-  
-      // if (
-      //   userEmail === savedSignupDetails["email"] &&
-      //   userPassword === savedSignupDetails["password"]
-      // ) {
-      //   console.log("matched");
-      //   window.close()
-      //       var qWindow=window.open()
-      //       qWindow.location.href="quiz.html";
-     
-  
-  
-      // } else {
-      //   console.log("Not matched");
-      //   credentialAlert2.innerHTML = "invalid credentials";
-  
-      // }
-     
-      // setTimeout(function () {
-      //   credentialAlert2.innerHTML = "";
-      // }, 3500);
-      // admin_user.value = "";
-      // admin_password.value = "";
-      // admin_user.placeholder = "";
-      // admin_password.placeholder = "";
+   
+ 
     }
 });
+
+
+
+// ==================================================================================
+var  addClass= document
+  .getElementById("addClass")
+  .addEventListener("click", function() {
+
+
+      
+  });
